@@ -27,3 +27,4 @@ print(word[-5])
 # print huruf yang akan diprint dari kata "Hello" index -6 hasil = error
 print(word[-6])
 # Kesimpulan : Jika dari depan index mulai dari 0 dan jika dari belakang index mulai dari -1 dan jika index di luar jumlah huruf -1(jika dari depan atau belakang) akan terjadi error
+# Indexes minus digunakan ketika ingin mengambil objek yang lebih dekat dari belakang dan positif jika lebih dekat dari depan
