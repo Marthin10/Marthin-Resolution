@@ -8,3 +8,7 @@ print(text.strip())
 print(text.rstrip())
 # Clean left side
 print(text.lstrip())
+# Jika mau clean aspek lain (jadi harus diclean dlu object sebelum dia)
+print(text.strip().strip("E"))
+# Jika mau clean aspek lain (jadi harus diclean dlu object sesudah dia (kalau objectnya sebelah kiri))
+print(text.strip().strip("g"))
