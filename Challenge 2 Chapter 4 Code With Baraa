@@ -1,0 +1,26 @@
+email = "Marthin123@gmail.com"
+password = input("Silahkan Input password: ")
+
+if password == "" or password == " ":
+    print("Password Invalid")
+
+elif len(password) < 8:
+    print("Password harus minimal 8 karakter")
+
+elif password.lower() == password:
+    print("Password harus memiliki huruf besar")
+
+elif password.upper() == password:
+    print("Password harus memiliki huruf kecil")
+
+elif password == email:
+    print("Password tidak boleh sama dengan email")
+
+elif " " in password:
+    print("Password tidak boleh mengandung spasi")
+
+elif not password[0].isalnum() or not password[-1].isalnum():
+    print("Password harus diawali dan diakhiri huruf atau angka")
+
+else:
+    print("Password Valid")
