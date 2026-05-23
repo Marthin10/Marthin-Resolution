@@ -1,0 +1,14 @@
+email = input("Silahkan masukkan email : ")
+
+if email == " " or "":
+    print("Email tidak boleh kosong")
+elif not ("." in email and "@" in email):
+    print("Tidak Valid")
+elif "@@" in email:
+    print("Tidak Valid")
+elif not (".com"e in email or ".org" in email or ".net" in email):
+    print("Tidak Valid")
+elif len(email) > 254:
+    print("Tidak Valid")
+else:
+    print("Email Valid")
