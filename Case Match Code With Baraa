@@ -1,0 +1,12 @@
+country = str(input("Silahkan masukkan negara : ")).lower()
+match  country:
+    case "united states":
+        print("US")
+    case "nigeria":
+        print("NG")
+    case "india":
+        print("IN")
+    case "Indonesia":
+        print("IND")
+    case _:
+        print("Unknown Country")
